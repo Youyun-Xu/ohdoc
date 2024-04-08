@@ -1,0 +1,120 @@
+/*#
+@colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#2372de","backgroundAccentColor":"#f0ccd1","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tree,theme-fonts-arial,title-font-size-small,wh-search-component-colors-white,wh-footer-colors-titles&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*theme-fonts-arial*/
+@page {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.topictitle1,
+.topictitle2,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~='topic/title'],
+*[class~='topic/thead'],
+*[class~="placeholder/figurelist"],
+*[class~="placeholder/tablelist"],
+*[class~="index/groups"]::before,
+*[class~="index/group"] > *[class~="index/label"],
+.wh_publication_title,
+.wh_top_menu,
+.wh_tile_title .topicref,
+.wh_main_page_toc_entry .topicref,
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+*[class~="map/topicref"] {
+  font-family: 'Arial', sans-serif;
+}
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6 {
+  font-family: 'Arial', sans-serif;
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+/*title-font-size-small*/
+.topictitle1,
+*[class~='toc/title'],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  font-size: 17pt;
+}
+.topictitle2 {
+  font-size: 14pt;
+}
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6 {
+  font-size: 11pt;
+}
+/*wh-tree*/
+/*wh-search-component-colors-white*/
+.wh_search_button {
+  background-color: #ffffff;
+  color: #000000;
+}
+/*wh-footer-colors-titles*/
+.footer-container,
+.footer-container a {
+  color: #000000;
+}
+
+/* Image Size */
+
+.entry>img {
+  width:30%;
+  height: auto;  
+}
+
+iframe{
+  width: 70%;
+  height: 350;
+}
+
+
+/* Customize Elements */
+/* Frameless table */
+table.no-frame{
+  border: none;
+}
+table.no-frame .entry{
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: left;
+  padding-left: 0px;
+  border: none;
+}
+table.no-frame .entry .p{
+  text-align: left;
+}
+
+table.no-frame .entry .div .p{
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
