@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="introduction"
-               path="002%20Documentations/Test/Test/Sources/EN/introduction.html"/>
-   <appContext helpID="test_gif_and_video"
-               path="002%20Documentations/Test/Test/Sources/EN/test_gif_and_video.html"/>
-   <appContext helpID="installation"
-               path="002%20Documentations/Test/Test/Sources/EN/test_gif_and_video.html#installation"/>
-   <appContext helpID="levelling"
-               path="002%20Documentations/Test/Test/Sources/EN/test_gif_and_video.html#levelling"/>
-   <appContext helpID="operation"
-               path="002%20Documentations/Test/Test/Sources/EN/operation.html"/>
-   <appContext helpID="menu_setting"
-               path="002%20Documentations/Test/Test/Sources/EN/menu_setting.html"/>
-   <appContext helpID="maintenance_0"
-               path="002%20Documentations/Test/Test/Sources/EN/maintenance_0.html"/>
-   <appContext helpID="legal_for_trade"
-               path="002%20Documentations/Test/Test/Sources/EN/legal_for_trade.html"/>
-   <appContext helpID="printing"
-               path="002%20Documentations/Test/Test/Sources/EN/printing.html"/>
-   <appContext helpID="technical_data_0"
-               path="002%20Documentations/Test/Test/Sources/EN/technical_data_0.html"/>
-   <appContext helpID="compliance_0"
-               path="002%20Documentations/Test/Test/Sources/EN/compliance_0.html"/>
-   <appContext helpID="untitled1"
-               path="002%20Documentations/Test/Test/Sources/EN/compliance.html"/>
+   <appContext helpID="instruction_manual" path="instruction_manual.html"/>
+   <appContext helpID="explorer" path="explorer.html"/>
+   <appContext helpID="adventurer" path="adventurer.html"/>
+   <appContext helpID="pioneer" path="pioneer.html"/>
+   <appContext helpID="release_notes" path="release_notes.html"/>
+   <appContext helpID="defender" path="defender.html"/>
+   <appContext helpID="ranger" path="ranger.html"/>
+   <appContext helpID="i_tm" path="i_tm.html"/>
+   <appContext helpID="brochure_and_datasheet" path="brochure_and_datasheet.html"/>
+   <appContext helpID="mb32_62_92" path="mb32_62_92.html"/>
+   <appContext helpID="mb90_120" path="mb90_120.html"/>
+   <appContext helpID="ElectroChemistry" path="ElectroChemistry.html"/>
+   <appContext helpID="starter" path="starter.html"/>
+   <appContext helpID="ap" path="ap.html"/>
 </map>
