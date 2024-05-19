@@ -396,3 +396,33 @@ Example:
  */
 .wh_main_page_toc{
 }
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Side by side 
+ * 
+ */
+ 
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
+  display:inline-block;
+  width: 50%;
+  background-color: black;
+}  
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/fig"] {
+  display:inline-block;
+  width: 43%;
+}  
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/fig"]  > *[class ~= "topic/image"] {
+  width:100%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
+  vertical-align:top;
+}  
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/fig"] {  
+  vertical-align:top;
+}  

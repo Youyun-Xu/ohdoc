@@ -1,0 +1,25 @@
+/*@info: PLACE YOUR CUSTOM CSS HERE.@info@*/
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Side by side 
+ * 
+ */
+ 
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
+  display:inline-block;
+  width: 50%;
+  background-color: black;
+  vertical-align:top;
+}  
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/fig"] {
+  display:inline-block;
+  width: 43%;
+  vertical-align:top;
+}  
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/fig"]  > *[class ~= "topic/image"] {
+  width:100%;
+}

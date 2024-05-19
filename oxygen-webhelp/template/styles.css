@@ -1,0 +1,159 @@
+/*#
+@colors&{"titlesAccentColor":"#494949","labelsAccentColor":"#7b7a7a","linksAccentColor":"#7d7e80","backgroundAccentColor":"#cecece","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,wh-tiles-themes-titles-with-border,wh-tree-themes-light-with-border,wh-breadcrumb-style-bold-selection,wh-breadcrumb-colors-labels-background,wh-left-toc-labels-for-selection-black-foreground,wh-right-toc-colors-labels,wh-menu-page-colors-titles-color-no-bg,wh-menu-page-depth-four,wh-search-component-colors-gray,wh-footer-colors-black,wh-index-terms-colors-titles-labels-colors,accent-colors-selector&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+@info@TIP: YOU CAN USE custom.css TO ADD CUSTOM SELECTORS.@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*accent-colors-selector*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  color: #494949;
+}
+*[class~='topic/shortdesc']:before {
+  color: #7b7a7a;
+}
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  color: #7d7e80;
+}
+.related-links a,
+.related-links a:visited {
+  color: #7d7e80;
+}
+a,
+a:hover,
+a:visited {
+  color: #7d7e80;
+}
+*[class~='topic/table'] th {
+  background-color: #cecece;
+}
+/*wh-tiles*/
+/*wh-tiles-themes-titles-with-border*/
+.wh_tile {
+  border: 1px solid #cecece;
+  background-color: transparent;
+}
+.wh_tile_title a {
+  font-size: 1.2em;
+  text-transform: none;
+  text-align: left;
+  color: #494949 !important;
+  font-weight: bold;
+}
+.wh_tile_title a:visited {
+  color: #494949;
+}
+.wh_tile_shortdesc {
+  color: #494949;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 0.5em;
+  text-align: justify;
+}
+/*wh-tree-themes-light-with-border*/
+.wh_main_page_toc .topicref a,
+.wh_main_page_toc .topicref a:hover,
+.wh_main_page_toc .topicref a:visited {
+  color: #494949;
+}
+.wh_main_page_toc .expanded,
+.wh_main_page_toc_accordion_entries {
+  background-color: #cecece;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header:before {
+  color: #494949;
+}
+.wh_main_page_toc > .wh_main_page_toc_entry:hover,
+.wh_main_page_toc .wh_main_page_toc_accordion_header:hover {
+  background-color: rgba(206, 206, 206, 0.1);
+}
+/*wh-breadcrumb-style-bold-selection*/
+.wh_breadcrumb ol .active a {
+  font-weight: bold;
+}
+/*wh-breadcrumb-colors-labels-background*/
+.wh_breadcrumb ol a {
+  color: #7b7a7a;
+}
+.wh_tools {
+  background-color: #cecece;
+}
+/*wh-left-toc-labels-for-selection-black-foreground*/
+.wh_publication_toc .title a {
+  color: #000;
+}
+.wh_publication_toc .active > .topicref a {
+  color: #7b7a7a;
+}
+.wh_publication_toc .title a:hover {
+  text-decoration: underline;
+}
+/*wh-right-toc-colors-labels*/
+.wh_topic_toc .section-item .section-title a {
+  color: #7b7a7a;
+}
+/*wh-index-terms-colors-titles-labels-colors*/
+.wh_index_terms span.wh_first_letter,
+.wh-letters li a,
+.wh_term_target {
+  color: #494949;
+}
+.wh_term span {
+  color: #7b7a7a;
+}
+/*wh-menu-page-colors-titles-color-no-bg*/
+.wh_header {
+  background-color: transparent;
+}
+.wh_top_menu > ul > li a,
+.wh_indexterms_link a::before {
+  color: #494949;
+}
+.wh_indexterms_link a span {
+  display: none;
+}
+.wh_top_menu ul li:hover {
+  background-color: #e6e6e6;
+}
+.wh_top_menu ul ul {
+  background-color: #e6e6e6;
+}
+.wh_top_menu ul ul li {
+  border-top-color: #fff;
+}
+.wh_top_menu ul ul li a:hover {
+  background: #d9d9d9;
+}
+#wh_menu_mobile_button {
+  background-color: #b3b3b3;
+}
+/*wh-menu-page-depth-four*/
+/*wh-search-component-colors-gray*/
+.wh_search_button {
+  background-color: #c6c6c6;
+  color: #000000;
+}
+/*wh-footer-colors-black*/
+.footer-container,
+.footer-container a {
+  color: #000;
+}
+
